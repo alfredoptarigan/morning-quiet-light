@@ -2,8 +2,71 @@
 	"name": "Morning Quiet Light",
 	"type": "light",
 	"colors": {
-		"editor.background": "#f5f5f5",
-		"editor.foreground": "#333333"
+		"editor.background": "#f9f9f9",
+		"editor.foreground": "#333",
+		"editorCursor.foreground": "#aaa",
+		"editorWhitespace.foreground": "#ebebeb",
+		"editorRuler.foreground": "#ebebeb",
+		"editorIndentGuide.background": "#ebebeb",
+		"editorIndentGuide.activeBackground": "#dcdcdc",
+		"editor.lineHighlightBackground": "#e4f6d4",
+		"activityBar.background": "#41A87E",
+		"activityBar.foreground": "#EFEFE3",
+		"activityBarBadge.background": "#dc1091",
+		"badge.background": "#448c27",
+		"badge.foreground": "#fff",
+		"sideBar.background": "#f2f2f2",
+		"sideBarSectionHeader.background": "#91befd",
+		"editorLineNumber.activeForeground": "#333",
+		"editorLineNumber.foreground": "#aaa",
+		"statusBar.background": "#41A87E",
+		"statusBar.debuggingBackground": "#aa3731",
+		"statusBar.noFolderBackground": "#aa3731",
+		"button.background": "#4b83cd",
+		"dropdown.background": "#f5f5f5",
+		"errorForeground": "#600",
+		"editor.selectionBackground": "#c1f5b0",
+		"editor.selectionHighlightBackground": "#c1f5b044",
+		"editor.selectionHighlightBorder": "#c1f5b0",
+		"editor.inactiveSelectionBackground": "#dcdcdcaa",
+		"editor.findMatchBackground": "#fef935",
+		"editor.findMatchHighlightBackground": "#fef93533",
+		"editor.findRangeHighlightBackground": "#dcdcdc55",
+		"editorLink.activeForeground": "#4b83cd",
+		"selection.background": "#c1f5b0",
+		"editor.wordHighlightBackground": "#c1f5b044",
+		"editor.wordHighlightStrongBackground": "#c1f5b044",
+		"list.activeSelectionBackground": "#4b83cd",
+		"list.activeSelectionForeground": "#fff",
+		"list.inactiveSelectionBackground": "#91b3e0",
+		"list.inactiveSelectionForeground": "#fff",
+		"list.focusBackground": "#91b3e0",
+		"list.inactiveFocusBackground": "#91b3e0",
+		"list.hoverBackground": "#e0e0e0",
+		"list.highlightForeground": "#7a3e9d",
+
+		"editorGroup.dropBackground": "#c9d0d988",
+		"focusBorder": "#a6b39b",
+		"inputOption.activeBorder": "#adafb7",
+		"inputValidation.errorBackground": "#ffeaea",
+		"inputValidation.errorBorder": "#f1897f",
+		"inputValidation.infoBackground": "#f2fcff",
+		"inputValidation.infoBorder": "#4ec1e5",
+		"inputValidation.warningBackground": "#fffee2",
+		"inputValidation.warningBorder": "#ffe055",
+		"panel.background": "#f5f5f5",
+		"peekView.border": "#705697",
+		"peekViewEditor.background": "#f2f8fc",
+		"peekViewEditor.matchHighlightBackground": "#c2dfe3",
+		"peekViewResult.background": "#f2f8fc",
+		"peekViewResult.matchHighlightBackground": "#93c6d6",
+		"peekViewTitle.background": "#f2f8fc",
+		"pickerGroup.border": "#749351",
+		"pickerGroup.foreground": "#a6b39b",
+		"progressBar.background": "#705697",
+		"tab.modifiedBorder": "#f1897f",
+		"titleBar.activeBackground": "#EEBC4F",
+		"walkThrough.embeddedEditorBackground": "#00000014"
 	},
 	"tokenColors": [
 		{
@@ -87,7 +150,8 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"fontStyle": "bold",
+				"foreground": "#29805d"
 			}
 		},
 		{
@@ -213,6 +277,16 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#91B3E0"
+			}
+		},
+		{
+			"name": "Styled Component",
+			"scope": [
+				"entity.other.attribute-name.class",
+			],
+			"settings": {
+				"fontStyle": "italic bold",
+				"foreground": "#0f76fc"
 			}
 		},
 		{
