@@ -1,0 +1,21 @@
+{
+    "name": "morning-quiet-light",
+    "displayName": "Morning Quiet Light",
+    "description": "Simple Light Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Morning Quiet Light",
+                "uiTheme": "vs",
+                "path": "./themes/Morning Quiet Light-color-theme.json"
+            }
+        ]
+    }
+}
